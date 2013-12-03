@@ -4,11 +4,12 @@ class DocumentsController < ApplicationController
 	
 	def new
 		@document = Document.create(file_params)
-		redirect_to
+		render js: "window.location = '#{view_url}'"
 	end
 
 	def view
-		@document = Document.find(params[:id])
+		# @document = Document.find(params[:id])
+		@document = Document.last
 	end
 
 	private
