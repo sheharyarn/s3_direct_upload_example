@@ -4,6 +4,8 @@ S3 Direct Upload Example
 This application was a result of [this](https://github.com/waynehoover/s3_direct_upload/issues/108). There was no simple example on how to use the `s3_direct_upload` [Gem for Rails](https://github.com/waynehoover/s3_direct_upload), so I decided to make one.
 
 
+**Deployed Version:** See the app in action on [Heroku](https://s3directuploadexample.herokuapp.com/view) (*Max File Size: 2MB*).
+
 
 Getting Started
 ---------------

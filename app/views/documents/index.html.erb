@@ -3,7 +3,7 @@
 					 callback_param: "document[file_url]",
 					 expiration: 2.hours.from_now.utc.iso8601,
 					 callback_method: "POST",
-					 max_file_size: 15.megabytes do %>
+					 max_file_size: 2.megabytes do %>
 
 	<%= file_field_tag :file, multiple: false %>
 <% end %>
